@@ -1,6 +1,21 @@
 .container {
   height: 300px;
+  width: 300;
   background-color: rgb(71, 88, 88);
   display: flex;
   flex-direction: column;
+}
+
+#heady {
+  height: 250px;
+  background-color: bisque;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#paris {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: antiquewhite;
 }
